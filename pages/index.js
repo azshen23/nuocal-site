@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Site is coming soon...</h1>s
+        <h1>Site is coming soon...</h1>
       </main>
     </div>
   );
