@@ -111,19 +111,18 @@ export default function index() {
             &emsp;&emsp; So this sounds great yeah? Ehhh, we will see. My main
             issue with Firebase is scalabilty. Firebase prices are EXTREMELY
             DANGEROUS. As your application grows, so do your costs, but with
-            Firebase, the cost grows quicker than you getting erection while
-            looking at Pool Party Caitlyn. So, just move off Firebase when the
-            costs increases right? Lets move back to the point where the idea is
-            you implement then scale. Not so much. Because if you opt in to
-            using Google Firebase as your backend, you never actually have a
-            backend yourself and Google has all your data, essentially locking
-            yourself into Google services. This what we call vendor locking and
-            Google are the kings of it. As a result, if you are about to go
-            bankrupt because you cannot afford Firebase pricing, you will not be
-            able to move off the Firebase platform since you have no viable way
-            to move all your data off the platform. Additionally, since you have
-            no real backend, you do not really even have a way to effectively
-            move to a new platform.
+            Firebase, the cost grows quicker than the beanstalk Jack has. So,
+            just move off Firebase when the costs increases right? Lets move
+            back to the point where the idea is you implement then scale. Not so
+            much. Because if you opt in to using Google Firebase as your
+            backend, you never actually have a backend yourself and Google has
+            all your data, essentially locking yourself into Google services.
+            This what we call vendor locking and Google are the kings of it. As
+            a result, if you are about to go bankrupt because you cannot afford
+            Firebase pricing, you will not be able to move off the Firebase
+            platform since you have no viable way to move all your data off the
+            platform. Additionally, since you have no real backend, you do not
+            really even have a way to effectively move to a new platform.
           </p>
           <p>
             &emsp;&emsp;Additionally, the issue of Firebase is that hey solely
@@ -161,8 +160,7 @@ export default function index() {
             restricts you from using something like Cloudflare to rate limit
             your users. Being able to use cloudflare significantly helps your
             security. There is definitly a way to use Cloudflare and Firebase
-            hosting, but there are just better alternatives. ALSO BY NOSQL I
-            ALSO MEAN MONGODB TOO, DONT USE THAT SHART
+            hosting, but there are just better alternatives.
           </p>
         </div>
 
