@@ -1,9 +1,15 @@
 import React from "react";
+import Head from "next/head";
 import Link from "next/link";
 
 export default function index() {
   return (
     <div className="flex flex-col items-center text-center justify-center pt-10 font-bold">
+      <Head>
+        <title>Nuocal DevLog</title>
+        <meta name="description" content="Devlog of this project" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="flex flex-col items-center text-center justify-center">
         <h1 className="text-6xl">DevLog[0]</h1>
         <h1 className="text-1xl pt-16">

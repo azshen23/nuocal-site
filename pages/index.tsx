@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Nuocal</title>
-        <meta name="description" content="" />
+        <meta name="description" content="Site coming soon..." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
