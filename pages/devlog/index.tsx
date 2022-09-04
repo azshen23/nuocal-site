@@ -5,7 +5,7 @@ import React, { useState } from "react";
 export default function Devlog() {
   const router = useRouter();
   const [devLogNum, setDevLogNum] = React.useState("__");
-  const totalDevLogs: number = 0;
+  const totalDevLogs: number = 1;
   function handleRedirect(keyDown: string) {
     if ((parseInt(devLogNum) || devLogNum === "0") && keyDown == "Enter") {
       if (parseInt(devLogNum) <= totalDevLogs) {
@@ -22,9 +22,13 @@ export default function Devlog() {
     <div className="flex flex-col items-center text-center justify-center pt-10 font-bold">
       <div className="text-left text-4xl font-bold pt-40">
         <h1>
-          Array&lt;Logs&gt; DevLogs[1] = [
+          Array&lt;Logs&gt; DevLogs[2] = [
           <Link href="/devlog/0">
             <a className="underline">Log0</a>
+          </Link>
+          ,&ensp;
+          <Link href="/devlog/1">
+            <a className="underline">Log1</a>
           </Link>
           ];
         </h1>
